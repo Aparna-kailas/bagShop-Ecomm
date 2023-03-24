@@ -1,0 +1,24 @@
+table{
+    text-align: left;
+    color:black;
+    border-collapse: collapse;
+   
+}
+.product-list h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 18px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+table td , table th{
+    border: 1px solid black;
+    padding: 10px;
+    min-width: 160pxs;
+}
+.adjust-update-link{
+    margin-left: 10px;
+}

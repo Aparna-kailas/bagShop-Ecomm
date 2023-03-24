@@ -1,0 +1,48 @@
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+	<div class="carousel-inner">
+	  <div class="carousel-item active">
+		<img src="https://i.postimg.cc/cJ3w23Pf/rebag-clair-news.jpg" class="d-block w-100" alt="...">
+	  </div>
+	  <div class="carousel-item">
+		<img src="https://i.postimg.cc/qvp6vYtD/original1.webp" class="d-block w-100" alt="...">
+	  </div>
+	  <div class="carousel-item">
+		<img src="https://i.postimg.cc/hjMMjxsN/lui.jpg" class="d-block w-100" alt="...">
+	  </div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+	  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+	  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	  <span class="visually-hidden">Next</span>
+	</button>
+  </div>
+  <div class="product-list-wrapper">
+	<h1>TRENDY PRODUCTS</h1>
+	<div class="row">
+	  <div class="col-sm-3" *ngFor="let item of trendyProducts">
+		<div class="product-item">
+		  <img src="{{item.image}}" alt="">
+		<div class="product-details">
+		  <h6 class="name-head">{{item.name}}</h6>
+		  <div class="product-price">
+			<h6>Price:{{item.price}}</h6>
+		  </div>
+		  <div class="product-color">
+			<h6>Color:{{item.colour}}</h6>
+		  </div>
+		</div>
+		<div class="product-footer">
+		  <a routerLink="/details/{{item.id}}">View Details</a>
+		  <a href="">Add to Cart</a>
+	
+		</div>
+		</div>
+	  </div>
+	
+	
+	</div>
+	</div>
+	

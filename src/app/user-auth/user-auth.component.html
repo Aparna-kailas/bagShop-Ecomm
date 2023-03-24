@@ -1,0 +1,64 @@
+<div class="user-auth">
+    <!-- <div *ngIf="!showLogin"  class="sign-up"> -->
+     <div *ngIf="!showLogin" class="user-signup">
+      <h1>USER SIGNUP</h1>
+      <form #userSignUp="ngForm" class="common-form" (ngSubmit)="signUp(userSignUp.value)">
+        <input
+          type="text"
+          class="form-input"
+          name="name"
+          placeholder="Enter User Name"
+          ngModel
+        />
+        <input
+          type="text"
+          class="form-input"
+          name="email"
+          placeholder="Enter User Email"
+          ngModel
+        />
+        <input
+        type="password"
+        class="form-input"
+        name="password"
+        placeholder="Enter User Password"
+        ngModel
+      />
+      <button class="form-button">Sign Up</button>
+      <p>Already Have Account ? <a (click)="openLogin()" >Click Here</a></p>
+      </form>
+     </div>
+     <div *ngIf="showLogin" class="user-login">
+      <h1>USER LOGIN</h1>
+      <form #userLogin="ngForm" class="common-form" (ngSubmit)="login(userLogin.value)">
+       <p class="error-p">{{authError}}</p>
+        <input
+          type="text"
+          class="form-input"
+          name="email"
+          placeholder="Enter User Email"
+          ngModel
+          #email="ngModel"
+          required
+        />
+        <p class="invalid-input" style="color: red; font-size: 12px;
+                 margin-top: -17px; "><span *ngIf="email.invalid && email.touched">Please Enter Valid Value</span></p>
+        <input
+        type="password"
+        class="form-input"
+        name="password"
+        placeholder="Enter User Password"
+        ngModel
+        minlength="3"
+        maxlength="20"
+        #password="ngModel"
+        required
+      />
+      <p class="invalid-input" style="color: red; font-size: 12px;
+                 margin-top: -17px; "><span *ngIf="password.invalid && password.touched">Please Enter Valid Value</span></p>
+      <button [disabled]="userLogin.invalid" class="form-button">Login</button>
+      <p>Create new Account ? <a (click)="openSignUp()" >Click Here</a></p>
+      </form>
+     </div>
+    </div>
+    

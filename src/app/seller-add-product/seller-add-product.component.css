@@ -1,0 +1,14 @@
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 23px;
+    padding-top: 50px;
+}
+.add-product{
+    text-align: center;
+    
+}
+.common-form{
+    margin-top: 30px;
+}

@@ -1,0 +1,248 @@
+{
+  "seller": [
+    {
+      "name": "vismaya",
+      "email": "vismaya@gmail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "alan",
+      "password": "abc@123",
+      "email": "alan@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "apz",
+      "password": "abc@123",
+      "email": "apz@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "vismaya",
+      "password": "abc@123",
+      "email": "vismaya@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "bibi",
+      "password": "abc@123",
+      "email": "bibi@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "vinu",
+      "password": "abc@123",
+      "email": "vinu@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "ani",
+      "password": "abc@123",
+      "email": "ani@gmail.com",
+      "id": 7
+    },
+    {
+      "name": "rama",
+      "password": "abc@1232",
+      "email": "rama@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "tony",
+      "password": "abc@123",
+      "email": "tony@mail.com",
+      "id": 9
+    },
+    {
+      "name": "cata",
+      "password": "abc@123",
+      "email": "cata@mail.com",
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "name": "CAPUCINES BB",
+      "price": "30000",
+      "category": "Women Bags",
+      "colour": "Black",
+      "description": "This Capucines Mini handbag is fashioned from deep-dyed black Taurillon leather and topped with a “crown” of gold-color Monogram Flowers, attached to the leather by hand. The adorable size and delicate ornamental blossoms bring refined femininity whilst the fashionably wide removable strap and leather top handle provide numerous carry options.",
+      "image": "https://i.postimg.cc/65sYBnwV/bag1.webp",
+      "id": 1
+    },
+    {
+      "name": "CAPUCINES MINI",
+      "price": "40000",
+      "category": "Women Bag",
+      "colour": "Emarald Green",
+      "description": "On this Capucines Mini hand bag, emerald-green Taurillon leather is paired with mint-color ostrich leather on the flap and top handle and signed with a rich green mother-of-pearl inlay on the LV Initials. The House’s expert leather colorists labored to achieve the perfect shade of green to complement the pearly inlay.\n\n",
+      "image": "https://i.postimg.cc/RVKRbFkP/bag2.webp",
+      "id": 2
+    },
+    {
+      "name": "TWIST MM",
+      "price": "35000",
+      "category": "Women Bag",
+      "colour": "Gold Cipango",
+      "description": "Crafted from the House’s emblematic Epi leather, the Twist MM chain bag features the now-iconic LV Twist lock, a sculptural signature in gleaming golden metal.This Twist MM handbag in Camel Epi leather edged with black is offered with a leather strap, for more carry options. For day, it can be worn over the shoulder or cross-body. Held by the short chain handle (with the strap removed) the bag becomes an ideal accessory for evening looks.",
+      "image": "https://i.postimg.cc/SsM34tm6/bag3.webp",
+      "id": 3
+    },
+    {
+      "name": "TWIST PM",
+      "price": "26000",
+      "category": "Women Bag",
+      "colour": "Pink",
+      "description": "\n\nThis Twist PM hand bag in Epi leather comes with a faceted gold-color chain that can be adjusted for a variety of carry options, thanks to its discreet LV hooks: hand or elbow, long or short shoulder, and cross body. The faceted chain is decorated with a removable Monogram Flower charm.\n\n",
+      "image": "https://i.postimg.cc/MpSvkv8H/bag4.webp",
+      "id": 4
+    },
+    {
+      "name": "Mini Dauphine Lock XL",
+      "price": "46000",
+      "category": "Women Bag",
+      "colour": "pink",
+      "description": "Nicolas Ghesquière plays with scale on this Mini Dauphine handbag. Part of the Lock XL capsule, the bag features a enormous LV Circle lock, as if magnified by magic. The couture feel produced by the exaggerated dimensions gives the bag an elegantly playful aspect.",
+      "image": "https://i.postimg.cc/WpDnXQXJ/louis-vuitton-twist-one-handle-bb-high-end-leathers-handbags-M21590-PM2-Front-view.webp",
+      "id": 5
+    },
+    {
+      "name": "Petite Malle V",
+      "price": "66000",
+      "category": "Women Bag",
+      "colour": "Brown",
+      "description": "Nicolas Ghesquière plays with scale on this Mini Dauphine handbag. Part of the Lock XL capsule, the bag features a enormous LV Circle lock, as if magnified by magic. The couture feel produced by the exaggerated dimensions gives the bag an elegantly playful aspect.",
+      "image": "https://i.postimg.cc/pLdY54hT/newp1.png",
+      "id": 6
+    },
+    {
+      "name": "Mini Dauphine",
+      "price": "76000",
+      "category": "Women Bag",
+      "colour": "Dark Beige",
+      "description": "Nicolas Ghesquière plays with scale on this Mini Dauphine handbag. Part of the Lock XL capsule, the bag features a enormous LV Circle lock, as if magnified by magic. The couture feel produced by the exaggerated dimensions gives the bag an elegantly playful aspect.",
+      "image": "https://i.postimg.cc/9MNBWjYZ/newp2.webp",
+      "id": 7
+    },
+    {
+      "name": "Dauphine",
+      "price": "60000",
+      "category": "Women Bag",
+      "colour": "Light pink",
+      "description": "Nicolas Ghesquière plays with scale on this Mini Dauphine handbag. Part of the Lock XL capsule, the bag features a enormous LV Circle lock, as if magnified by magic. The couture feel produced by the exaggerated dimensions gives the bag an elegantly playful aspect.",
+      "image": "https://i.postimg.cc/DZMnpNK0/newp3.webp",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "tony",
+      "email": "tony@gmail.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "sona",
+      "email": "sona@gmail.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "sona",
+      "email": "sona@gmail.com",
+      "password": "abc@123",
+      "id": 4
+    },
+    {
+      "name": "rem",
+      "email": "rem@gmail.com",
+      "password": "abc@123",
+      "id": 5
+    },
+    {
+      "name": "appuk",
+      "email": "appk@gmail.com",
+      "password": "abc@123",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "name": "TWIST MM",
+      "price": "35000",
+      "category": "Women Bag",
+      "colour": "Gold Cipango",
+      "description": "Crafted from the House’s emblematic Epi leather, the Twist MM chain bag features the now-iconic LV Twist lock, a sculptural signature in gleaming golden metal.This Twist MM handbag in Camel Epi leather edged with black is offered with a leather strap, for more carry options. For day, it can be worn over the shoulder or cross-body. Held by the short chain handle (with the strap removed) the bag becomes an ideal accessory for evening looks.",
+      "image": "https://i.postimg.cc/SsM34tm6/bag3.webp",
+      "quantity": 3,
+      "productId": 3,
+      "userId": 3,
+      "id": 3
+    },
+    {
+      "name": "TWIST MM",
+      "price": "35000",
+      "category": "Women Bag",
+      "colour": "Gold Cipango",
+      "description": "Crafted from the House’s emblematic Epi leather, the Twist MM chain bag features the now-iconic LV Twist lock, a sculptural signature in gleaming golden metal.This Twist MM handbag in Camel Epi leather edged with black is offered with a leather strap, for more carry options. For day, it can be worn over the shoulder or cross-body. Held by the short chain handle (with the strap removed) the bag becomes an ideal accessory for evening looks.",
+      "image": "https://i.postimg.cc/SsM34tm6/bag3.webp",
+      "quantity": 5,
+      "productId": 3,
+      "userId": 3,
+      "id": 4
+    },
+    {
+      "name": "CAPUCINES BB",
+      "price": "30000",
+      "category": "Women Bag",
+      "colour": "Black",
+      "description": "This Capucines Mini handbag is fashioned from deep-dyed black Taurillon leather and topped with a “crown” of gold-color Monogram Flowers, attached to the leather by hand. The adorable size and delicate ornamental blossoms bring refined femininity whilst the fashionably wide removable strap and leather top handle provide numerous carry options.",
+      "image": "https://i.postimg.cc/65sYBnwV/bag1.webp",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": 5
+    },
+    {
+      "name": "CAPUCINES BB",
+      "price": "30000",
+      "category": "Women Bag",
+      "colour": "Black",
+      "description": "This Capucines Mini handbag is fashioned from deep-dyed black Taurillon leather and topped with a “crown” of gold-color Monogram Flowers, attached to the leather by hand. The adorable size and delicate ornamental blossoms bring refined femininity whilst the fashionably wide removable strap and leather top handle provide numerous carry options.",
+      "image": "https://i.postimg.cc/65sYBnwV/bag1.webp",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "name": "CAPUCINES BB",
+      "price": "30000",
+      "category": "Women Bag",
+      "colour": "Black",
+      "description": "This Capucines Mini handbag is fashioned from deep-dyed black Taurillon leather and topped with a “crown” of gold-color Monogram Flowers, attached to the leather by hand. The adorable size and delicate ornamental blossoms bring refined femininity whilst the fashionably wide removable strap and leather top handle provide numerous carry options.",
+      "image": "https://i.postimg.cc/65sYBnwV/bag1.webp",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 1,
+      "id": 9
+    }
+  ],
+  "orders": [
+    {
+      "email": "aml@gmail.com",
+      "address": "hillview",
+      "contact": "1234512345",
+      "totalPrice": 30100,
+      "userId": 1,
+      "id": 3
+    }
+  ]
+}

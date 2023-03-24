@@ -1,0 +1,25 @@
+.user-auth h1{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    color: black;  
+    text-align: center; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25PX;
+    
+}
+
+.user-auth {
+    margin-bottom: 140px;
+}
+.user-auth a{
+    color: black;
+    cursor: pointer;
+}
+.common-form p {
+color:black;
+margin-top: 10px;
+}
+.common-form a{
+    color:blue;
+    margin-top: 10px;
+}
